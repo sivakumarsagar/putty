@@ -1,0 +1,21 @@
+dotnet new lambda.SQS
+dontnet new .gitignore
+
+cloudFormation Template:
+
+Deployment.yaml
+---------------------------------------------------------------------------------------------------------------
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: "cloudFormation with gitops"
+Metadata:
+
+Parameters:
+
+Mappings:
+
+Conditions:
+
+Resources:
+
+Outputs:
